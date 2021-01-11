@@ -20,3 +20,7 @@ INSERT INTO books VALUES
 
 .print 'Average number of pages'
 SELECT avg(num_pages) AS avg_pages FROM books;
+
+.print
+.print 'books read'
+SELECT * FROM books
